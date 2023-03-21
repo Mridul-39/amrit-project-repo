@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-inter: Inter;
+  
+    /* font sizes */
+    --font-size-mini: 15px;
+  
+    /* Colors */
+    --color-black: #000;
+    --color-lightsteelblue: #a8c6ea;
+    --color-lightpink: #f3a4b2;
+    --color-khaki: #e9d078;
+  
+    /* border radiuses */
+    --br-xl: 20px;
+  }
+  

@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amrit - Landing page</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./static/style.css">
+  <link rel="stylesheet" href="./static/stylel.css">
+  <link rel="stylesheet" href="./static/global.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Mulish:wght@600;700;900&family=Quicksand:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- 
+    - HEADER
+  -->
+      <nav class="glass-nav">
+		<div class="nav-logo"><img src="/static/images/Amritlogo.png"></div>
+		<ul class="nav-links">
+			<li><a href="./home">Home</a></li>
+			<li><a href="./aboutus">About</a></li>
+			<li><a href="./services">Services</a></li>
+			<li><a href="./contactus">Contact</a></li>
+			<li><a href="./getstarted"><button style="font-size: 13px; background-color:blue; 
+			padding: 7px 16px;border-radius: 5px;border:blue; 
+			color: azure;
+			font-weight: bold;
+			">Get started</button></a></li>
+		</ul>
+	</nav>
+    
+  <main>
+    <article>
+
+      <!-- 
+        - HERO
+      -->
+
+      <section class="hero" id="hero">
+        <div class="container">
+
+          <div class="hero-content">
+            <h1 class="h1 hero-title">The Guidence You Deserve !</h1>
+            <h2>We are looking <br />to make you good</h2><br>
+            <p class="hero-text">
+                You will leave Lookin’ Sharp, relaxed and ready to <br />
+                takeon the world, with that swagger in your stride
+            </p>
+
+            <a href="./getstarted" style="font-size: 18px; background-color:blue; 
+			padding: 10px 12px;border-radius: 5px;border:blue; 
+			color: azure;
+			font-weight: bold;">Get started<a></button>
+          </div> 
+
+          {% comment %} <div class="hero-content">
+            <div class="text">
+            <h1 class="h1 hero-title">The Guidence You Deserve !</h1><br>
+              <h2>We are looking <br />to make you good</h2><br>
+              <p class="form-text">
+                You will leave Lookin’ Sharp, relaxed and ready to <br />
+                takeon the world, with that swagger in your stride
+              </p>
+              <br />
+               <a href="./getstarted" style="font-size: 13px; background-color:blue; 
+			padding: 10px 16px;border-radius: 5px;border:blue; 
+			color: azure;
+			font-weight: bold;">Get started<a></button>
+            </div> {% endcomment %}
+
+          <figure class="hero-banner">
+            <img src='./static/images/hero-banner.png'alt="Hero image">
+          </figure>
+
+        </div>
+      </section>
+
+      <!-- 
+        - ABOUT
+      -->
+
+      
+
+
+
+      <!-- 
+        - FEATURES
+      -->
+
+      <section class="features" id="features">
+        <div class="container">
+
+          <h2 class="h2 section-title">Nectar of Career</h2>
+
+          <p class="section-text">
+            Amrit is linked to career by providing a platform that guides students in choosing the right career path based on their interests, skills, and personality traits. The platform offers comprehensive and personalized information about different career options available to students, helping them make informed decisions about their careers.
+          </p>
+
+          <div class="features-wrapper">
+
+            <figure class="features-banner">
+              <img src="./static/images/features-img-1.png" alt="illustration art">
+            </figure>
+
+            <div class="features-content">
+
+              <p class="features-content-subtitle">
+                <ion-icon name="sparkles"></ion-icon>
+
+                <span>CREATIVE FEATURES</span>
+              </p>
+
+              <h3 class="features-content-title">
+                Build <strong>community</strong> & <strong>conversion</strong> with our suite of <strong>social
+                  tool</strong>
+              </h3>
+
+              <p class="features-content-text">
+                Temporibus autem quibusdam et aut officiis debitis aut rerum a necessitatibus saepe eveniet ut et
+                voluptates repudiandae
+                sint molestiae non recusandae itaque.
+              </p>
+
+              <ul class="features-list">
+
+                <li class="features-list-item">
+                  <ion-icon name="layers-outline"></ion-icon>
+
+                  <p>Donec pede justo fringilla vel nec.</p>
+                </li>
+
+                <li class="features-list-item">
+                  <ion-icon name="megaphone-outline"></ion-icon>
+
+                  <p>Cras ultricies mi eu turpis hendrerit fringilla.</p>
+                </li>
+
+              </ul>
+
+              <div class="btn-group">
+                <button class="btn btn-primary">Read More</button>
+
+                <button class="btn btn-secondary">Buy Now</button>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="features-wrapper">
+
+            <figure class="features-banner">
+              <img src="./static/images/features-img-2.png" alt="illustration art">
+            </figure>
+
+            <div class="features-content">
+
+              <p class="features-content-subtitle">
+                <ion-icon name="sparkles"></ion-icon>
+
+                <span>CREATIVE FEATURES</span>
+              </p>
+
+              <h3 class="features-content-title">
+                We do the work you <strong>stay focused</strong> on <strong>your customers.</strong>
+              </h3>
+
+              <p class="features-content-text">
+                Temporibus autem quibusdam et aut officiis debitis aut rerum a necessitatibus saepe eveniet ut et
+                voluptates repudiandae
+                sint molestiae non recusandae itaque.
+              </p>
+
+              <ul class="features-list">
+
+                <li class="features-list-item">
+                  <ion-icon name="rocket-outline"></ion-icon>
+
+                  <p>Donec pede justo fringilla vel nec.</p>
+                </li>
+
+                <li class="features-list-item">
+                  <ion-icon name="wifi-outline"></ion-icon>
+
+                  <p>Cras ultricies mi eu turpis hendrerit fringilla.</p>
+                </li>
+
+              </ul>
+
+              <div class="btn-group">
+                <button class="btn btn-primary">Read More</button>
+
+                <button class="btn btn-secondary">Buy Now</button>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+{% comment %} 
+
+
+      <!-- 
+        - BLOG
+      -->
+
+      <section class="blog" id="blog">
+        <div class="container">
+
+          <h2 class="h2 section-title">Latest News</h2>
+
+          <p class="section-text">
+            Et harum quidem rerum facilis est et expedita distinctio nam libero tempore cum soluta nobis eligendi
+            cumque.
+          </p>
+
+          <ul class="blog-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="blog-banner">
+                  <img src="./static/images/blog-banner-1.jpg" alt="Best Traveling Place">
+                </figure>
+
+                <div class="blog-meta">
+
+                  <span>
+                    <ion-icon name="calendar-outline"></ion-icon>
+
+                    <time datetime="2021-04-10">april 10 2021</time>
+                  </span>
+
+                  <span>
+                    <ion-icon name="person-outline"></ion-icon>
+
+                    <p>admin</p>
+                  </span>
+
+                </div>
+
+                <h3 class="blog-title">Best Traveling Place</h3>
+
+                <p class="blog-text">
+                  Integer ante arcu accumsan a consectetuer eget posuere mauris praesent adipiscing phasellus
+                  ullamcorper ipsum rutrum
+                  punc.
+                </p>
+
+                <a href="#" class="blog-link-btn">
+                  <span>Learn More</span>
+
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="blog-banner">
+                  <img src="./static/images/blog-banner-2.jpg" alt="Private Meeting Room">
+                </figure>
+
+                <div class="blog-meta">
+
+                  <span>
+                    <ion-icon name="calendar-outline"></ion-icon>
+
+                    <time datetime="2021-04-10">april 10 2021</time>
+                  </span>
+
+                  <span>
+                    <ion-icon name="person-outline"></ion-icon>
+
+                    <p>admin</p>
+                  </span>
+
+                </div>
+
+                <h3 class="blog-title">Private Meeting Room</h3>
+
+                <p class="blog-text">
+                  Integer ante arcu accumsan a consectetuer eget posuere mauris praesent adipiscing phasellus
+                  ullamcorper ipsum rutrum
+                  punc.
+                </p>
+
+                <a href="#" class="blog-link-btn">
+                  <span>Learn More</span>
+
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="blog-banner">
+                  <img src="./static/images/blog-banner-3.jpg" alt="The Best Business Ideas">
+                </figure>
+
+                <div class="blog-meta">
+
+                  <span>
+                    <ion-icon name="calendar-outline"></ion-icon>
+
+                    <time datetime="2021-04-10">april 10 2021</time>
+                  </span>
+
+                  <span>
+                    <ion-icon name="person-outline"></ion-icon>
+
+                    <p>admin</p>
+                  </span>
+
+                </div>
+
+                <h3 class="blog-title">The Best Business Ideas</h3>
+
+                <p class="blog-text">
+                  Integer ante arcu accumsan a consectetuer eget posuere mauris praesent adipiscing phasellus
+                  ullamcorper ipsum rutrum
+                  punc.
+                </p>
+
+                <a href="#" class="blog-link-btn">
+                  <span>Learn More</span>
+
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+ {% endcomment %}
+ <div class="group-parent">
+    <div class="rectangle-parent">
+      <button class="group-child" autofocus></button>
+      <div class="abroad">Abroad</div>
+      <img class="vector-icon" alt="" src="./static/images/tree/vector@2x.png" /><button
+        class="group-item"
+        autofocus
+      ></button
+      ><img class="vector-icon1" alt="" src="./static/images/tree/vector1@2x.png" /><img
+        class="vector-icon2"
+        alt=""
+        src="./static/images/tree/vector2@2x.png"
+      /><button class="group-inner" autofocus></button
+      ><img class="vector-icon3" alt="" src="./static/images/tree/vector3@2x.png" /><img
+        class="vector-icon4"
+        alt=""
+        src="./static/images/tree/vector4@2x.png"
+      /><img class="vector-icon5" alt="" src="./static/images/tree/vector5@2x.png" /><img
+        class="vector-icon6"
+        alt=""
+        src="./static/images/tree/vector6@2x.png"
+      /><img class="vector-icon7" alt="" src="./static/images/tree/vector7@2x.png" /><img
+        class="vector-icon8"
+        alt=""
+        src="./static/images/tree/vector8@2x.png"
+      /><img class="vector-icon9" alt="" src="./static/images/tree/vector9@2x.png" /><img
+        class="vector-icon10"
+        alt=""
+        src="./static/images/tree/vector10@2x.png"
+      /><img
+        class="vector-icon11"
+        alt=""
+        src="./static/images/tree/vector11@2x.png"
+      /><img
+        class="vector-icon12"
+        alt=""
+        src="./static/images/tree/vector12@2x.png"
+      /><img
+        class="vector-icon13"
+        alt=""
+        src="./static/images/tree/vector13@2x.png"
+      /><img
+        class="vector-icon14"
+        alt=""
+        src="./static/images/tree/vector14@2x.png"
+      /><img
+        class="vector-icon15"
+        alt=""
+        src="./static/images/tree/vector15@2x.png"
+      /><img
+        class="vector-icon16"
+        alt=""
+        src="./static/images/tree/vector16@2x.png"
+      /><img
+        class="vector-icon17"
+        alt=""
+        src="./static/images/tree/vector17@2x.png"
+      /><img
+        class="vector-icon18"
+        alt=""
+        src="./static/images/tree/vector18@2x.png"
+      /><img
+        class="vector-icon19"
+        alt=""
+        src="./static/images/tree/vector19@2x.png"
+      /><img
+        class="vector-icon20"
+        alt=""
+        src="./static/images/tree/vector20@2x.png"
+      /><img
+        class="vector-icon21"
+        alt=""
+        src="./static/images/tree/vector21@2x.png"
+      /><img
+        class="vector-icon22"
+        alt=""
+        src="./static/images/tree/vector22@2x.png"
+      /><img
+        class="vector-icon23"
+        alt=""
+        src="./static/images/tree/vector23.svg"
+      /><button class="rectangle-button"></button
+      ><button class="group-child1" autofocus></button
+      ><img class="vector-icon24" alt="" src="./static/images/tree/vector24.svg" /><img
+        class="vector-icon25"
+        alt=""
+        src="./static/images/tree/vector25.svg"
+      /><button class="group-child2" autofocus></button
+      ><img class="vector-icon26" alt="" src="./static/images/tree/vector26.svg" /><img
+        class="vector-icon27"
+        alt=""
+        src="./static/images/tree/vector27.svg"
+      /><img
+        class="vector-icon28"
+        alt=""
+        src="./static/images/tree/vector28.svg"
+      /><button class="group-child3" autofocus></button
+      ><img class="vector-icon29" alt="" src="./static/images/tree/vector29.svg" /><img
+        class="vector-icon30"
+        alt=""
+        src="./static/images/tree/vector30.svg"
+      /><img
+        class="vector-icon31"
+        alt=""
+        src="./static/images/tree/vector31@2x.png"
+      /><img class="vector-icon32" alt="" src="./static/images/tree/vector32.svg" /><img
+        class="vector-icon33"
+        alt=""
+        src="./static/images/tree/vector33.svg"
+      /><img
+        class="vector-icon34"
+        alt=""
+        src="./static/images/tree/vector34@2x.png"
+      /><img
+        class="vector-icon35"
+        alt=""
+        src="./static/images/tree/vector35@2x.png"
+      /><img
+        class="vector-icon36"
+        alt=""
+        src="./static/images/tree/vector36@2x.png"
+      /><img
+        class="vector-icon37"
+        alt=""
+        src="./static/images/tree/vector37@2x.png"
+      /><button class="group-child4" autofocus></button
+      ><button class="kvpy" autofocus>KVPY</button
+      ><button class="group-child5" autofocus></button
+      ><button class="state-wise-polytechnic-admissi-container" autofocus>
+        <p class="state-wise">State-Wise</p>
+        <p class="state-wise">Polytechnic</p>
+        <p class="state-wise">Admission Exam</p></button
+      ><button class="group-child6"></button
+      ><button class="indian-navy-matric-container" autofocus>
+        <p class="state-wise">Indian Navy Matric</p>
+        <p class="state-wise">Recruitment</p></button
+      ><button class="group-child7" autofocus></button
+      ><button class="iaf-airmen-recruitment" autofocus>
+        IAF Airmen Recruitment</button
+      ><button class="group-child8"></button
+      ><button class="group-child9" autofocus></button
+      ><button class="iti" autofocus>ITI</button
+      ><button class="polytechnic1" autofocus>Polytechnic</button>
+      <div class="arts">Arts</div>
+      <button class="group-child10" autofocus></button>
+      <div class="vocational-streams">Vocational Streams</div>
+      <div class="commerce">Commerce</div>
+      <button class="group-child11" autofocus></button
+      ><button class="group-child12" autofocus></button>
+      <div class="pcb">PCB</div>
+      <div class="pcm">PCM</div>
+      <div class="imu-cet">IMU CET</div>
+      <button class="group-child13" autofocus></button
+      ><button class="group-child14" autofocus></button>
+      <div class="entrance-exams">Entrance exams</div>
+      <div class="abroad1">Abroad</div>
+      <div class="upsc">UPSC</div>
+      <div class="cuet">CUET</div>
+      <button class="group-child15"></button
+      ><button class="group-child16" autofocus></button
+      ><button class="group-child17" autofocus></button
+      ><button class="nda">NDA</button>
+      <div class="jee">JEE</div>
+      <div class="university">University</div>
+      <button class="group-child18" autofocus></button
+      ><button class="group-child19" autofocus></button>
+      <div class="business-analyst">Business analyst</div>
+      <button class="group-child20" autofocus></button>
+      <div class="entrepreneur">Entrepreneur</div>
+      <button class="group-child21" autofocus></button>
+      <div class="marketing-analyst">Marketing analyst</div>
+      <div class="bba">BBA</div>
+      <button class="group-child22" autofocus></button>
+      <div class="design">DESIGN</div>
+      <button class="group-child23" autofocus></button>
+      <div class="architect">Architect</div>
+      <button class="group-child24" autofocus></button
+      ><button class="group-child25" autofocus></button>
+      <div class="uiux-designer">UI&UX Designer</div>
+      <button class="group-child26" autofocus></button>
+      <div class="artist">Artist</div>
+      <button class="group-child27" autofocus></button
+      ><button class="group-child28" autofocus></button>
+      <div class="lawyer">Lawyer</div>
+      <button class="group-child29" autofocus></button>
+      <div class="judge">Judge</div>
+      <div class="llb">LL.B</div>
+      <img class="vector-icon38" alt="" src="./static/images/tree/vector38@2x.png" /><img
+        class="vector-icon39"
+        alt=""
+        src="./static/images/tree/vector39@2x.png"
+      /><img
+        class="vector-icon40"
+        alt=""
+        src="./static/images/tree/vector40@2x.png"
+      /><button class="group-child30" autofocus></button>
+      <div class="btech">BTECH</div>
+      <button class="group-child31" autofocus></button>
+      <div class="engineer">Engineer</div>
+      <button class="group-child32" autofocus></button>
+      <div class="entrepreneur1">Entrepreneur</div>
+      <button class="group-child33" autofocus></button>
+      <div class="researcher">Researcher</div>
+      <img class="vector-icon41" alt="" src="./static/images/tree/vector41@2x.png" /><img
+        class="vector-icon42"
+        alt=""
+        src="./static/images/tree/vector42@2x.png"
+      /><img
+        class="vector-icon43"
+        alt=""
+        src="./static/images/tree/vector43@2x.png"
+      /><button class="group-child34" autofocus></button>
+      <div class="masters">Masters</div>
+      <button class="group-child35" autofocus></button>
+      <div class="high-paying-jobs">High paying jobs</div>
+      <button class="group-child36" autofocus></button>
+      <div class="retirement"><p class="state-wise">Retirement</p></div>
+      <button class="group-child37" autofocus></button
+      ><button class="group-child37" autofocus></button
+      ><button class="group-child39" autofocus></button>
+      <div class="intermediate">Intermediate</div>
+      <button class="group-child40" autofocus></button
+      ><button class="group-child41" autofocus></button>
+      <div class="class-1">Class 1</div>
+      <div class="class-10">Class 10</div>
+      <button class="group-child42" autofocus></button
+      ><button class="entrance-exams1" autofocus>Entrance Exams</button>
+      <div class="diploma">Diploma</div>
+    </div>
+  </div>
+ ----------------------------------
+
+ =--------------------------------------------
+      <!-- 
+        - CONTACT
+      -->
+
+      <section class="contact" id="contact">
+        <div class="container">
+
+          <h2 class="h2 section-title">Contact Us</h2>
+
+          <p class="section-text">
+            Et harum quidem rerum facilis est et expedita distinctio nam libero tempore cum soluta nobis eligendi
+            cumque.
+          </p>
+
+          <div class="contact-wrapper">
+
+            <form action="" class="contact-form">
+
+              <div class="wrapper-flex">
+
+                <div class="input-wrapper">
+                  <label for="name">Name*</label>
+
+                  <input type="text" name="name" id="name" required placeholder="Enter Your Name" class="input-field">
+                </div>
+
+                <div class="input-wrapper">
+                  <label for="emai">Email*</label>
+
+                  <input type="text" name="email" id="email" required placeholder="Enter Your Email"
+                    class="input-field">
+                </div>
+
+              </div>
+
+              <label for="message">Message*</label>
+
+              <textarea name="message" id="message" required placeholder="Type Your Message"
+                class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-primary">
+                <span>Send Message</span>
+
+                <ion-icon name="paper-plane-outline"></ion-icon>
+              </button>
+
+            </form>
+
+            <ul class="contact-list">
+
+              <li>
+                <a href="mailto:support@website.com" class="contact-link">
+                  <ion-icon name="mail-outline"></ion-icon>
+
+                  <span>: support@website.com</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="contact-link">
+                  <ion-icon name="globe-outline"></ion-icon>
+
+                  <span>: www.website.com</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="tel:+0011234567890" class="contact-link">
+                  <ion-icon name="call-outline"></ion-icon>
+
+                  <span>: (+001) 123 456 7890</span>
+                </a>
+              </li>
+
+              <li>
+                <div class="contact-link">
+                  <ion-icon name="time-outline"></ion-icon>
+
+                  <span>: 9:00 AM - 6:00 PM</span>
+                </div>
+              </li>
+
+              <li>
+                <a href="#" class="contact-link">
+                  <ion-icon name="location-outline"></ion-icon>
+
+                  <address>: 1644 Deer Ridge Drive Rochelle Park, NJ 07662</address>
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - FOOTER
+  -->
+
+  <footer>
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          {% comment %} <a href="#" class="logo">
+            <img src="./static/images/Amritlogo.png" alt="Landio logo">
+          </a> {% endcomment %}
+
+          <p class="footer-text">
+            Cras ultricies mi eu turpis sit hendrerit fringilla vestibulum ante ipsum primis in faucibus ultrices
+            posuere cubilia.
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-link-box">
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-item-title">ABOUT US</p>
+            </li>
+
+            <li>
+              <a href="./aboutus" class="footer-link">Team</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Strategy</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Releases</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Press</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Mission</a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-item-title">CUSTOMERS</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Tranding</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Popular</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Customers</a>
+            </li>
+
+            <li>
+              <a href="./services" class="footer-link">Features</a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-item-title">SUPPORT</p>
+            </li>
+
+            <li>
+              <a href="./aboutus" class="footer-link">Developers</a>
+            </li>
+
+            <li>
+              <a href="./contactus" class="footer-link">Support</a>
+            </li>
+
+            <li>
+              <a href="./contactus" class="footer-link">Customer Service</a>
+            </li>
+
+            <li>
+              <a href="./getstarted" class="footer-link">Get Started</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Guide</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright">
+          &copy; 2023 <a href="">Team Vidyut</a>. All Right Reserved
+        </p>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./static/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

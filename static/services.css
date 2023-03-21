@@ -1,0 +1,299 @@
+.component-child {
+    position: absolute;
+    height: 28.63%;
+    width: 89.99%;
+    top: 12.46%;
+    right: 6.96%;
+    bottom: 58.92%;
+    left: 3.05%;
+    border-radius: var(--br-base);
+    background-color: var(--color-gray);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+  }
+  .component-item {
+    position: absolute;
+    top: 10px;
+    left: calc(50% - 798.5px);
+    border-radius: var(--br-xl);
+    background-color: var(--color-white);
+    backdrop-filter: blur(4px);
+    width: 1597px;
+    height: 62px;
+  }
+  .about,
+  .contact,
+  .home,
+  .login,
+  .services {
+    position: absolute;
+    top: 26px;
+    left: 1116px;
+    font-family: var(--font-times-new-roman);
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .about,
+  .contact,
+  .login,
+  .services {
+    left: 1187.1px;
+  }
+  .contact,
+  .login,
+  .services {
+    left: 1260.45px;
+  }
+  .contact,
+  .login {
+    left: 1350.43px;
+  }
+  .login {
+    left: 1438.2px;
+    backdrop-filter: blur(4px);
+  }
+  .get-started {
+    position: relative;
+    font-size: 13px;
+    font-family: var(--font-arial);
+    color: azure;
+    text-align: center;
+  }
+  .button {
+    cursor: pointer;
+    border: 0;
+    padding: 6px 15.637451171875px 8.199996948242188px 16px;
+    background-color: #00f;
+    position: absolute;
+    top: 27px;
+    left: 1500.44px;
+    border-radius: 5px;
+    backdrop-filter: blur(4px);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .amrit,
+  .nectar-of-career {
+    position: absolute;
+    font-weight: 700;
+    text-align: center;
+  }
+  .amrit {
+    top: 12px;
+    left: 47px;
+    font-size: 40px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .nectar-of-career {
+    top: 53px;
+    left: 125px;
+    font-size: 5px;
+  }
+  .component-inner {
+    position: absolute;
+    top: 55px;
+    left: 44px;
+    width: 80px;
+    height: 2px;
+  }
+  .services1 {
+    position: absolute;
+    top: 106px;
+    left: 45px;
+    font-size: var(--font-size-31xl);
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .line-div {
+    position: absolute;
+    top: 167.51px;
+    left: 47.5px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(4px);
+    border-top: 5px solid #3b97ed;
+    box-sizing: border-box;
+    width: 211.01px;
+    height: 5px;
+  }
+  .component-child1,
+  .component-child2,
+  .ellipse-icon {
+    position: absolute;
+    top: 165px;
+    left: 260px;
+    width: 13px;
+    height: 13px;
+  }
+  .component-child1,
+  .component-child2 {
+    left: 269px;
+  }
+  .component-child2 {
+    left: 278px;
+  }
+  .rectangle-button,
+  .rectangle-div {
+    position: absolute;
+    height: 28.63%;
+    width: 89.99%;
+    top: 45.7%;
+    right: 6.96%;
+    bottom: 25.67%;
+    left: 3.05%;
+    border-radius: var(--br-base);
+    background-color: var(--color-gray);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+  }
+  .rectangle-button {
+    cursor: pointer;
+    border: 1px solid var(--color-dodgerblue);
+    padding: 0;
+    background-color: var(--color-blue-100);
+    height: 4.08%;
+    width: 16.67%;
+    top: 68.37%;
+    right: 9.01%;
+    bottom: 27.55%;
+    left: 74.32%;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25),
+      0 4px 4px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+  }
+  .career-guidance,
+  .learn-more,
+  .scholarship {
+    position: absolute;
+    top: 49.3%;
+    left: 42.16%;
+    font-size: var(--font-size-31xl);
+    letter-spacing: 0.08em;
+    color: var(--color-darkslategray);
+    text-align: center;
+  }
+  .career-guidance,
+  .learn-more {
+    top: 69.23%;
+    left: 76.45%;
+    font-size: var(--font-size-16xl);
+    color: var(--color-white);
+  }
+  .career-guidance {
+    top: 16.38%;
+    left: 42.65%;
+    font-size: var(--font-size-31xl);
+    color: var(--color-darkslategray);
+  }
+  .career-guidance-324x235-1-icon {
+    position: absolute;
+    height: 20.57%;
+    width: 31.42%;
+    top: 16.38%;
+    right: 62.48%;
+    bottom: 63.05%;
+    left: 6.1%;
+    border-radius: var(--br-base);
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .component-child3 {
+    cursor: pointer;
+    border: 1px solid var(--color-dodgerblue);
+    padding: 0;
+    background-color: var(--color-blue-100);
+    position: absolute;
+    height: 4.08%;
+    width: 16.67%;
+    top: 35.07%;
+    right: 9.07%;
+    bottom: 60.85%;
+    left: 74.25%;
+    border-radius: var(--br-base);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25),
+      0 4px 4px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+  }
+  .learn-more1 {
+    position: absolute;
+    top: 35.98%;
+    left: 76.45%;
+    font-size: var(--font-size-16xl);
+    letter-spacing: 0.08em;
+    color: var(--color-white);
+    text-align: center;
+  }
+  .group-child,
+  .oip-magic-1-1 {
+    position: absolute;
+    border-radius: var(--br-base);
+  }
+  .oip-magic-1-1 {
+    top: 0;
+    left: 0;
+    width: 507px;
+    height: 375px;
+    object-fit: cover;
+  }
+  .group-child {
+    top: 275px;
+    left: 366px;
+    background-color: var(--color-white);
+    width: 141px;
+    height: 100px;
+  }
+  .oip-magic-1-1-parent {
+    position: absolute;
+    top: 918px;
+    left: 104px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(4px);
+    width: 507px;
+    height: 375px;
+  }
+  .to-explore-different,
+  .to-know-about {
+    position: absolute;
+    top: 411px;
+    left: 699px;
+    font-size: var(--font-size-31xl);
+    letter-spacing: 0.08em;
+    display: flex;
+    align-items: center;
+    width: 801px;
+  }
+  .to-know-about {
+    top: 1001px;
+    height: 181px;
+  }
+  .rectangle-parent {
+    position: absolute;
+    top: -0.5px;
+    left: -0.5px;
+    background-color: rgba(0, 163, 255, 0.05);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(4px);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 1639px;
+    height: 1862px;
+    overflow: hidden;
+  }
+  .component-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1638px;
+    height: 1861px;
+  }
+  .group-parent {
+    position: relative;
+    width: 100%;
+    height: 1861px;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }
+  
